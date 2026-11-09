@@ -1,0 +1,49 @@
+1. employees cədvəlindəki bütün məlumatları ekrana çıxarın.
+2. Bütün işçilərin yalnız first_name, last_name və salary məlumatlarını göstərin.
+3. Bütün işçilərin employee_id, first_name, email və hire_date məlumatlarını əldə edin.
+4. İşçilərin adını, soyadını və maaşını göstərin. Nəticədə maaş sütunu üzrə məlumatlar da görünməlidir.
+5. jobs cədvəlindəki bütün vəzifələri və həmin vəzifələr üçün müəyyən edilmiş minimum və maksimum maaşları göstərin.
+6. Maaşı 5,000-dən çox olan işçiləri göstərin.
+7. Maaşı 3,000-dən az olan işçilərin adını, soyadını və maaşını göstərin.
+8. department_id dəyəri 90 olan işçiləri tapın.
+9. job_id dəyəri IT_PROG olan işçiləri göstərin.
+9. Maaşı 5,000-ə bərabər olan işçiləri tapın.
+10. manager_id dəyəri 100 olan işçiləri göstərin.
+11. 10-cu departamentdə işləyən işçilərin adını, soyadını və maaşını əldə edin.
+12. Maaşı 4,000-dən çox və 8,000-dən az olan işçiləri tapın.
+13. 90-cı departamentdə işləyən və maaşı 10,000-dən çox olan işçiləri göstərin.
+14. IT_PROG və ya SA_REP vəzifəsində çalışan işçiləri tapın.
+15. Maaşı 5,000-dən çox olan və ya 50-ci departamentdə işləyən işçiləri göstərin.
+16. 60-cı və ya 90-cı departamentdə işləyən, maaşı isə 7,000-dən çox olan işçiləri tapın.
+17. Maaşı 3,000-dən az və ya 12,000-dən çox olan işçiləri göstərin.
+18. Bütün işçiləri maaşlarına görə artan ardıcıllıqla sıralayın.
+19. Bütün işçiləri maaşlarına görə azalan ardıcıllıqla sıralayın.
+20. İşçiləri işə qəbul tarixlərinə görə ən yeni tarixdən ən köhnə tarixə doğru sıralayın.
+21. 50-ci departamentdə işləyən işçiləri maaşlarına görə azalan ardıcıllıqla sıralayın.
+22. Bütün işçilərin maaşlarını və onların 10% artırılmış yeni maaşlarını göstərin. Yeni maaşı iki rəqəm dəqiqliyi ilə yuvarlaqlaşdırın.
+23. Bütün işçilərin maaşlarının 15%-ni hesablayın və nəticəni iki rəqəm dəqiqliyi ilə göstərin.
+24. İşçilərin orta maaşını hesablayın və nəticəni iki rəqəm dəqiqliyi ilə yuvarlaqlaşdırın.
+26. Şirkətdə ümumilikdə neçə işçinin olduğunu hesablayın (COUNT).
+
+27. Bütün işçilərin maaşlarının ümumi məbləğini hesablayın (SUM).
+
+28. Şirkətdə çalışan işçilərin orta maaşını hesablayın (AVG).
+
+29. Şirkətdə ən yüksək maaş alan işçinin maaşını tapın (MAX).
+
+30. Şirkətdə ən aşağı maaş alan işçinin maaşını tapın (MIN).
+
+31. 90-cı departamentdə çalışan işçilərin sayını hesablayın.
+
+32. Maaşı 5,000-dən çox olan işçilərin orta maaşını hesablayın və nəticəni iki rəqəm dəqiqliyi ilə yuvarlaqlaşdırın.
+33. Maaşı 5,000-dən çox olan işçiləri tapın və onları maaşlarına görə azalan ardıcıllıqla sıralayın.
+
+34. 50-ci və ya 90-cı departamentdə işləyən, maaşı 4,000-dən çox olan işçilərin adını, soyadını və maaşını göstərin.
+
+35. Bütün işçilərin orta maaşını hesablayın. Daha sonra ən yüksək və ən aşağı maaşı da eyni sorğunun nəticəsində göstərin.
+
+36. IT_PROG vəzifəsində çalışan işçilərin sayını hesablayın.
+
+37. Maaşı 10,000-dən çox olan işçilərin ümumi maaş məbləğini hesablayın.
+
+38. Bütün işçilərin maaşlarını 20% artırılmış formada göstərin və yeni maaşları azalan ardıcıllıqla sıralayın.
