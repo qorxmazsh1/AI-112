@@ -1,0 +1,25 @@
+EMPLOYEES və DEPARTMENTS cədvəllərini birləşdirərək hər bir işçinin adını, soyadını, maaşını və işlədiyi departamentin adını göstərin.
+
+EMPLOYEES və JOBS cədvəllərini birləşdirərək işçilərin adını, soyadını, vəzifəsinin adını (JOB_TITLE) və maaşını göstərin. Yalnız maaşı 5,000-dən çox olan işçiləri əldə edin.
+
+EMPLOYEES, DEPARTMENTS və LOCATIONS cədvəllərini birləşdirərək işçilərin adını, soyadını, departamentinin adını və işlədikləri şəhəri göstərin. Yalnız Seattle şəhərində işləyənləri əldə edin.
+
+EMPLOYEES və JOBS cədvəllərini birləşdirərək IT_PROG və ya SA_REP vəzifəsində çalışan işçilərin adını, soyadını, vəzifəsinin adını və maaşını göstərin. Nəticələri maaşa görə azalan ardıcıllıqla sıralayın.
+
+EMPLOYEES və DEPARTMENTS cədvəllərini birləşdirərək hər bir departamentdə neçə işçinin çalışdığını hesablayın. Departamentin adını və işçilərin sayını göstərin.
+
+Hər bir departamentdə çalışan işçilərin orta maaşını hesablayın. Departamentin adını və orta maaşı göstərin. Orta maaşı iki rəqəm dəqiqliyi ilə yuvarlaqlaşdırın və nəticələri orta maaşa görə azalan ardıcıllıqla sıralayın.
+
+Hər bir departamentdə çalışan işçilərə ödənilən ümumi maaş məbləğini hesablayın. Departamentin adını və ümumi maaş məbləğini göstərin.
+
+EMPLOYEES və JOBS cədvəllərini birləşdirərək hər bir vəzifə üzrə:
+- İşçilərin sayını;
+- Orta maaşı;
+- Minimum maaşı;
+- Maksimum maaşı hesablayın.
+Orta maaşı iki rəqəm dəqiqliyi ilə göstərin.
+
+
+DEPARTMENTS və LOCATIONS cədvəllərini birləşdirərək hər bir şəhərdə neçə departament yerləşdiyini hesablayın. Şəhərin adını və departamentlərin sayını göstərin.
+
+EMPLOYEES və DEPARTMENTS cədvəllərini birləşdirərək yalnız maaşı 5,000-dən çox olan işçiləri nəzərə alın. Hər bir departament üzrə həmin işçilərin sayını və orta maaşını hesablayın.
