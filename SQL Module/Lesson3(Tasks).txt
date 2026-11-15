@@ -1,0 +1,64 @@
+Hər bir departamentdə çalışan işçilərin sayını hesablayın. Yalnız 5-dən çox işçisi olan departamentləri göstərin.
+
+
+Hər bir departament üzrə orta maaşı hesablayın. Orta maaşı 6,000-dən çox olan departamentləri göstərin.
+
+
+Hər bir departament üzrə ümumi maaş məbləğini hesablayın. Ümumi maaşı 30,000-dən çox olan departamentləri göstərin.
+
+
+Hər bir vəzifə (JOB_ID) üzrə işçilərin sayını hesablayın. Ən azı 3 işçisi olan vəzifələri göstərin.
+
+
+Hər bir vəzifə üzrə maksimum maaşı hesablayın. Maksimum maaşı 10,000-dən çox olan vəzifələri göstərin.
+
+
+Hər bir departament üzrə minimum maaşı hesablayın. Minimum maaşı 3,000-dən çox olan departamentləri göstərin.
+
+
+Hər bir departament üzrə orta maaşı hesablayın. Orta maaşı 5,000 ilə 10,000 arasında olan departamentləri göstərin.
+
+
+Hər bir departament üzrə işçilərin sayını və orta maaşını hesablayın. Yalnız 3-dən çox işçisi olan və orta maaşı 5,000-dən yüksək olan departamentləri göstərin.
+
+
+Maaşı 5,000-dən çox olan işçiləri departamentlər üzrə qruplaşdırın. Yalnız 3-dən çox belə işçisi olan departamentləri göstərin.
+
+
+Yalnız IT_PROG və SA_REP vəzifələrində çalışan işçiləri nəzərə alaraq hər bir vəzifə üzrə işçilərin sayını hesablayın. Ən azı 2 işçisi olan vəzifələri göstərin.
+
+
+50-ci və 90-cı departamentlərdə çalışan işçilərin orta maaşını hesablayın. Orta maaşı 7,000-dən çox olan departamentləri göstərin.
+
+
+Maaşı 3,000-dən çox olan işçilərin departamentlər üzrə ümumi maaşını hesablayın. Ümumi maaşı 20,000-dən çox olan departamentləri göstərin.
+
+
+2005-ci ildən sonra işə qəbul edilmiş işçiləri (HIRE_DATE) departamentlər üzrə qruplaşdırın. Ən azı 2 belə işçisi olan departamentləri göstərin.
+
+
+IT_PROG vəzifəsində çalışan və maaşı 5,000-dən çox olan işçilərin sayını hər bir departament üzrə hesablayın. Ən azı 2 işçisi olan departamentləri göstərin.
+
+
+10,000-dən az maaş alan işçiləri departamentlər üzrə qruplaşdırın. Hər bir departament üzrə maksimum maaşı hesablayın və maksimum maaşı 8,000-dən çox olan departamentləri göstərin.
+
+
+EMPLOYEES və DEPARTMENTS cədvəllərini birləşdirərək hər bir departamentin adını və işçilərin sayını göstərin. Yalnız 5-dən çox işçisi olan departamentləri əldə edin.
+
+
+EMPLOYEES və JOBS cədvəllərini birləşdirərək hər bir vəzifənin adını və orta maaşını hesablayın. Orta maaşı 7,000-dən çox olan vəzifələri göstərin.
+
+
+EMPLOYEES, DEPARTMENTS və LOCATIONS cədvəllərini birləşdirərək hər bir şəhər üzrə işçilərin sayını hesablayın. Ən azı 5 işçisi olan şəhərləri göstərin.
+
+
+EMPLOYEES, DEPARTMENTS və LOCATIONS cədvəllərini birləşdirərək hər bir şəhər üzrə ümumi maaş məbləğini hesablayın. Ümumi maaşı 50,000-dən çox olan şəhərləri göstərin.
+
+
+EMPLOYEES, DEPARTMENTS və JOBS cədvəllərini birləşdirərək hər bir departament və vəzifə üzrə işçilərin sayını hesablayın. Ən azı 2 işçisi olan qrupları göstərin.
+
+
+EMPLOYEES, DEPARTMENTS və JOBS cədvəllərini birləşdirərək hər bir departament üzrə orta maaşı hesablayın. Orta maaşı 6,000-dən çox olan departamentləri göstərin. Nəticədə departamentin adı və orta maaş göstərilməlidir.
+
+
+EMPLOYEES, DEPARTMENTS, LOCATIONS və COUNTRIES cədvəllərini birləşdirərək hər bir ölkə üzrə işçilərin sayını hesablayın. Ən azı 5 işçisi olan ölkələri göstərin.
