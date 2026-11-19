@@ -1,0 +1,456 @@
+Lesson 1
+
+
+Aggregate functions
+
+
+ * What database should I use for these exercises?
+
+ * Name: World
+
+ */
+
+--
+
+-- Question 1: How many official languages are there?
+
+-- Table: country language
+
+-- Question 2: What is the average life expectancy in the world?
+
+-- Table: Country
+
+-- Question 3: What is the average population of cities in the Netherlands?
+
+-- Table: City
+
+Solve the first 5 questions in this link
+
+Exercise v3.0
+
+
+Comparison operators
+
+
+
+-- How many female customers do we have from the state of Oregon (OR)?
+
+/*
+
+
+*/
+
+-- Who over the age of 44 has an income of 100,000 or more? (excluding 44)
+
+DB: Store, table: Customers
+
+/*
+
+
+*/
+
+-- Who between the ages of 30 and 50 has an income less than 50,000?
+
+-- (include 30 and 50 in the results)
+
+DB: Store, table: Customers
+
+/*
+
+
+*/
+
+-- What is the average income between the ages of 20 and 50? (Excluding 20 and 50)
+
+DB: Store/Table: Customers
+
+/*
+
+
+*/
+
+IN
+
+/*
+
+* DB: Store
+
+* Table: orders
+
+* Question: How many orders were made by customers 7888, 1082, 12808, 9623
+
+*/
+
+SELECT * FROM orders;
+
+/*
+
+* DB: World
+
+* Table: City
+
+* Question: How many cities are in the districts of Zuid-Holland, Noord-Brabant and Utrecht?
+
+*/
+
+SELECT * FROM city;
+
+
+
+Between and
+
+-- Who between the ages of 30 and 50 has an income less than 50,000?
+
+-- (include 30 and 50 in the results)
+
+
+/*
+
+
+*/
+
+
+-- What is the average income between the ages of 20 and 50? (Including 20 and 50)
+
+/*
+
+
+
+/*
+
+* DB: Employees
+
+* Table: Employees
+
+* Question: How many unique birth dates are there?
+
+
+
+/*
+
+* DB: World
+
+* Table: Country
+
+* Question: Can I get a list of distinct life expectancy ages
+
+
+
+
+
+End of lesson 1
+
+—---------------------------------------------------------------------------------------------------------------
+
+
+Lesson 2
+
+
+
+
+
+
+SELECT * FROM employees;
+
+
+
+
+Order by
+
+/*
+
+* DB: Employees
+
+* Table: Employees
+
+* Question: Sort employees by first name ascending and last name descending
+
+*/
+
+
+
+/*
+
+* DB: Employees
+
+* Table: Employees
+
+* Question: Sort employees by BIRTH_DATE
+
+*/
+
+
+
+/*
+
+* DB: Employees
+
+* Table: Employees
+
+* Question: Sort employees whose name starts with a  "K"  and then order by hire_date column
+
+*/
+
+Like
+
+
+/*
+
+* DB: Store
+
+* Table: customers
+
+* Question: How many people's zipcodes start with 2 with the 3rd character being a 1.
+
+* Expected output: 109
+
+
+
+/*
+
+* DB: Employees
+
+* Table: employees
+
+* Question: How many people's name start with A and end with r?
+
+* Expected output: 1846
+
+*/
+
+
+                                                 
+
+/*
+
+* DB: Store
+
+* Table: customers
+
+* Question: How many people's zipcode have a 2 in it?.
+
+* Expected output: 4211
+
+*/
+
+
+Comparison operators
+
+
+Select people either under 30 or over 50 with an income above 50000 that are from either Japan or Australia or US
+Expected output -5871
+
+What was our total sales in June of 2004 for total amount over 100 dollars?
+
+
+
+—-------------------------------------------------------------------------------
+
+
+
+Lesson 3
+
+
+Joins
+
+/*
+
+* DB: Store
+
+* Table: orders
+
+* Question: Get all orders from customers who live in Ohio (OH), New York (NY) or Oregon (OR) state
+
+*/
+
+
+
+
+/*
+
+* DB: Store
+
+* Table: products
+
+* Question: Show me the inventory for each product
+
+*/
+
+
+
+/*
+
+* DB: Employees
+
+* Table: Employees
+
+* Question: Show me for each employee which department they work in
+
+*/
+
+
+/*
+
+*  Show me all the employees that work in the department development
+
+*  Database: Employees
+
+*/
+
+
+
+
+
+DB: Employees
+
+/*
+
+*Show the salary for each employee and their name
+
+*/
+
+
+DB: World
+
+/*
+
+*show me each country and its language
+
+*/
+
+End of Lesson 3
+
+—------------------------------------------------------------------------------------------
+
+Lesson 4
+
+
+        Group by
+
+/*
+
+*  How many people were hired on any given hire date?
+
+*  Database: Employees
+
+*  Table: Employees
+
+*/
+
+
+SELECT e.emp_no
+
+FROM employees as e
+
+
+/*
+
+*   Show me  employees (emp_no) who were hired after 1991 and count the number of positions they've had
+
+*  Database: Employees
+
+*/
+
+
+SELECT e.emp_no
+
+FROM employees as e
+
+
+New tasks
+
+
+How many employees were hired in each year?
+
+Database: Employees
+Table: Employees
+Find the employee numbers and names of employees who work in the 'Sales' department.
+
+Database: Employees
+Table: Employees, Dept_emp, Departments
+Count the number of employees who were hired each month.
+
+Database: Employees
+Table: Employees
+—--------------------------------------------------
+
+
+
+
+Having
+
+
+/*
+
+*  Show me employees(emp_no) who were hired after 1991, who have had at least 2 titles
+
+*  Database:1 Employees
+
+*/
+
+
+
+
+/*
+
+*  Show me  employees (emp_no) who have had more than 15 salary changes that work in the department development
+
+*  Database: Employees
+
+*/
+
+
+
+
+/*
+
+*  Show me employees who have worked for multiple departments
+
+*  Database: Employees
+
+*/
+
+
+Show me employees (emp_no) that have had more than 15 salary changes that work in the department development.
+
+
+
+Lesson 5 & 6
+
+Window functions
+
+
+
+
+SELECT *
+
+FROM regions AS r;
+
+
+
+/*Table employees
+
+Find the average income for each position
+
+
+
+Database store
+
+Table products
+
+
+/* Find the average price for each category and then subtract the item’s price from its category’s price
+
+
+
+Find the percentage of the world's population that lives on each continent.
+
+
+
+ row_number()
+
+Find the first three hired employees for each department
+
+Find the 3 highest salaries for each position
+
+Find the most expensive product for each category
